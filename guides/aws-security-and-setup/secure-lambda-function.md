@@ -10,7 +10,7 @@ It is highly recommended that you limit invocation permissions to just Alexa and
 
 1. To secure a Lambda function, so that it can only be invoked by your skill, follow these steps.
 1. Open up the [developer portal](https://developer.amazon.com/alexa/console/ask) and locate your skill in the list.
-1. Click on the skill id which is located in small text, directly below the skill name.  It'll looks something like ```amzn1.ask.skill.12ab...```.  Once you click on it, the id should briefly change into the word 'Copied'.
+1. Click on the skill id which is located in small text, directly below the skill name.  It'll looks something like ```amzn1.ask.skill.12ab...```. Select and copy the ID into clipboard.
 1. Return to your Lambda function in the AWS Console. If you're following a sample skill tutorial, you may already have this browser tab open. Otherwise, open the Lambda console by clicking here: [AWS Console](https://console.aws.amazon.com/lambda/home?/functions) and selecting the appropriate function. 
 1. In the **Designer** section, under the **Add triggers** section, locate the **Alexa Skills Kit** trigger and click on it.
 1. Scroll down to **Configure triggers**, paste the Skill ID in the Skill ID edit box.
